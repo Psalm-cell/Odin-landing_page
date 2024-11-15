@@ -59,3 +59,17 @@ a {
     text-align: justify;
     width: 500px;
 }
+.head_2 {
+    text-align: center;
+    height: 500px;
+}
+h2 {
+    font-size: 42px;
+    font-weight: 700;  
+    padding-bottom: 25px; 
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+}
