@@ -1,3 +1,4 @@
+/* Header */
 body {
     font-family: Roboto;
     margin: 0;
@@ -59,6 +60,9 @@ a {
     text-align: justify;
     width: 500px;
 }
+
+/* Section 2 */
+
 .head_2 {
     text-align: center;
     height: 500px;
@@ -66,10 +70,24 @@ a {
 h2 {
     font-size: 42px;
     font-weight: 700;  
-    padding-bottom: 25px; 
+    padding-bottom: 15px; 
 }
 .container {
     display: flex;
-    justify-content: space-around;
-    gap: 16px;
+    justify-content: center;
+    gap: 25px;
+}
+.info {
+    max-width: 180px;
+}
+.image {
+    border: solid #3882F6;
+    border-radius: 10px;
+}
+.pics {
+    border-radius: 10px;
+}
+.text {
+    font-size: 18px;
+    margin-top: 10px;
 }
