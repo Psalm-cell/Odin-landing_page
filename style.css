@@ -29,6 +29,7 @@ button {
     padding: 9px 20px;
     border: none;
     font-size: 16px;
+    width: 120px;
 }
 .header {
     display: flex;
@@ -59,6 +60,7 @@ a {
 .body-left {
     text-align: justify;
     width: 500px;
+    padding: 0;
 }
 
 /* Section 2 */
@@ -104,13 +106,13 @@ h2 {
     justify-content: center;
     align-items: center;
     background-color: #E5E7EB;
-    height: 300px;
-    padding: 25px;
+    height: 350px;
+    padding: 30px;
 }
 .quote {
     font-size: 36px;
     color: #1F2937;
-    font-weight: light;
+    font-weight: 300;
     font-style: italic;
     text-align: left;
     max-width: 850px;
@@ -121,6 +123,40 @@ h2 {
     font-weight: bold;
     max-width: 300px;
     font-size: 25px;
-    text-align: left;
+    text-align: left !important;
     margin-top: 0;
+}
+
+/* SECTION-3 */
+ .head-4 {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .container-2 {
+    background-color: #3882F6;
+    height: 140px;
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 12px;
+ }
+.modal{
+    display: flex;
+    flex-direction: column;
+}
+h3 {
+    color: #E5E7EB;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+.modal > p {
+    font-size: 20px;
+}
+.sign-up {
+    font-size: 16px;
+    border: 2px solid #E5E7EB;
+    width: 120px;
 }
