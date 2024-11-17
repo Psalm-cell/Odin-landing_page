@@ -64,7 +64,6 @@ a {
 }
 
 /* Section 2 */
-
 .head_2 {
     text-align: center;
     height: 500px;
@@ -84,6 +83,7 @@ h2 {
 }
 .info {
     width: 20%;
+    max-height: 200px;
 }
 .pics {
     border-radius: 20px;
@@ -98,8 +98,7 @@ h2 {
     text-align: justify;
 }
 
-/* SECTION-2 */
-
+/* SECTION-3 */
 .head-3 {
     display: flex;
     flex-direction: column;
@@ -127,9 +126,9 @@ h2 {
     margin-top: 0;
 }
 
-/* SECTION-3 */
+/* SECTION-4 */
  .head-4 {
-    height: 350px;
+    height: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -159,4 +158,15 @@ h3 {
     font-size: 16px;
     border: 2px solid #E5E7EB;
     width: 120px;
+}
+
+/* FOOTER */
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 60px;
+    text-align: center;
+    padding-top: 20px;
 }
