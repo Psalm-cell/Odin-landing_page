@@ -66,6 +66,7 @@ a {
 .head_2 {
     text-align: center;
     height: 500px;
+    margin-bottom: 200px;
 }
 h2 {
     font-size: 42px;
@@ -76,18 +77,50 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 25px;
+    width: 80%;
+    margin: auto;
 }
 .info {
-    max-width: 180px;
-}
-.image {
-    border: solid #3882F6;
-    border-radius: 10px;
+    width: 20%;
 }
 .pics {
-    border-radius: 10px;
+    border-radius: 20px;
+    border: 5px solid #3882F6;
+    height: 200px;
+    width: 100%;
 }
 .text {
+    color: #000;
     font-size: 18px;
     margin-top: 10px;
+    text-align: justify;
+}
+
+/* SECTION-2 */
+
+.head-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 300px;
+    padding: 25px;
+}
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: light;
+    font-style: italic;
+    text-align: left;
+    max-width: 850px;
+    margin-bottom: 0;
+}
+.writer {
+    color: #1F2937;
+    font-weight: bold;
+    max-width: 300px;
+    font-size: 25px;
+    text-align: left;
+    margin-top: 0;
 }
